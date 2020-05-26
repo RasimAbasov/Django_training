@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '2av)6s5ct88yud67ghagqw0+#0($9qlw2b@gap$22znjy6hvf0'
+SECRET_KEY = 'c_+i)vmd0u1g#m@6wwba36x%@j!9+i9k)i_p)8**bcz7cw+bk-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'my_site.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['E:/Autotest/Django_training/my_site/mainapp/templates/mainapp'],
+        'DIRS': ['my_site/mainapp/templates/mainapp'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -119,3 +119,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+                    )
