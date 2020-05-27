@@ -1,0 +1,122 @@
+body {
+	/*background-color : #f8f8f8 ;*/
+	background-color : #dddddd;
+}
+
+
+.menu li {
+	font-style : normal;/*Обычное начертание текста.*/
+	font-size : 31px ;
+	list-style-type : none; /*Изменяет вид маркера для каждого элемента списка.*/
+	display: inline-block;
+	text-align: center;
+}
+
+
+.menu li a {
+ 	padding: 1em;
+ 	display: block;
+	color: white;
+ 	/*border-right: 1px solid #BAD78B;*/
+ 	background: rgba(186, 215, 139, .2);
+ 	text-decoration: none; /*убираем подчеркивание текста ссылок*/
+}
+
+.header_image {
+ 	height: 600px;
+ 	background-image: url("images/iit2.jpg");
+ 	/*background-attachment: fixed;*/  /*Фон остается  зафиксированным */
+	background-repeat: no-repeat;  /*Фон не будет повторяться */
+ 	background-size: 100% auto;
+ 	background-color : #dddddd;
+}
+
+.menu {
+ 	max-width: 800px; /* ограничение длины панели */
+ 	/*min-width: 800px;*/
+    margin: 0 auto; /* навигационная панель по центру страницы */
+    text-align: center;
+}
+.menu a:hover {background: rgba(6,52,88, .2)}
+
+.title{
+	color: white; 
+	font-size: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.icon_list li {
+    display: inline-block;
+    font-weight: 700;
+/*    left: 0;
+    top: 0;*/
+    padding-top: 2em;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+    width: 200px;
+
+	}
+
+
+.list_what_testing {
+	text-align: center;
+}
+
+.name_icon_list li{
+	font-style : normal;/*Обычное начертание текста.*/
+	display: inline-block;
+	margin: 0 auto;
+	color: white; 
+	font-size: 25px;
+    font-weight: 900; /* Жирное начертание */
+	width: 200px;
+	/*text-transform: uppercase;*/
+}
+
+footer{
+    height:100px;
+    background-color: #373433;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px; /*верхний внутренний отступ*/
+}
+
+
+
+.footer-text{
+    color: white;
+    font-size: 20px;
+    /*text-align: center;*/
+    font-family: sans-serif;
+}
+
+.list_icon_client li {
+ 	display: inline-block;
+    padding-top: 1em;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+
+}
+
+p{
+	font-family: Georgia, Serif;
+	font-size: 20px;
+}
+
+
+.header_servises{
+	background-color: #092c4a;
+}
+
+table {
+    /*width: 300px; *//* Ширина таблицы */
+    /*border: 1px solid green;*/ /* Рамка вокруг таблицы */
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+   }
+   td {
+    text-align: center; /* Выравниваем текст по центру ячейки */
+    font-family: Georgia, Serif;
+	font-size: 20px;
+   }
